@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai KopiKu</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Product</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-btn">
+          <i data-feather="search"></i>
+        </a>
+        <a href="#" id="cart-btn">
+          <i data-feather="shopping-cart"></i>
+        </a>
+        <a href="#" id="hamburger-menu">
+          <i data-feather="menu"></i>
+        </a>
+      </div>
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here . . . " />
+        <label for="search-box">
+          <i data-feather="search"></i>
+        </label>
+      </div>
+      <!-- Search Form End  -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img
+            src="https://images.unsplash.com/photo-1565071559227-20ab25b7685e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNob2NvbGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img
+            src="https://images.unsplash.com/photo-1565071559227-20ab25b7685e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNob2NvbGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img
+            src="https://images.unsplash.com/photo-1565071559227-20ab25b7685e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNob2NvbGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eos!
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h1><span>Tentang</span> Kami</h1>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/Kopi-2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
+            ut! Eligendi cum magni sint harum unde nisi dolores architecto nam!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo natus
+            tempora voluptatem culpa in veniam facilis aspernatur deserunt rem
+            aperiam ab sed a, laborum non iusto consectetur perferendis id est.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h1><span>Menu</span> Kami</h1>
+      <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa quod
+        aut at, dolor possimus.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Kopi-3.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">-Expresso-</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section End -->
+
+    <!-- Products Section Start -->
+    <section class="products" id="products">
+      <h1><span>Produk Unggulan</span>Kami</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        eligendi maiores, distinctio natus quidem cumque!
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye" class="eye-btn"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://media.istockphoto.com/id/1447671524/photo/chocolates.jpg?b=1&s=170667a&w=0&k=20&c=BP58--1PyKb0BS9cuAu3iJMbeb0BgDpEPL_SHxDWj0c="
+              alt=""
+            />
+          </div>
+          <div class="prduct-content">
+            <h1>Chocolate Machiacto Brown Sugar</h1>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye" class="eye-btn"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://media.istockphoto.com/id/1447671524/photo/chocolates.jpg?b=1&s=170667a&w=0&k=20&c=BP58--1PyKb0BS9cuAu3iJMbeb0BgDpEPL_SHxDWj0c="
+              alt=""
+            />
+          </div>
+          <div class="product-content">
+            <h1>Chocolate Machiacto Brown Sugar</h1>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye" class="eye-btn"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://media.istockphoto.com/id/1447671524/photo/chocolates.jpg?b=1&s=170667a&w=0&k=20&c=BP58--1PyKb0BS9cuAu3iJMbeb0BgDpEPL_SHxDWj0c="
+              alt=""
+            />
+          </div>
+          <div class="prduct-content">
+            <h1>Chocolate Machiacto Brown Sugar</h1>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye" class="eye-btn"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://media.istockphoto.com/id/1447671524/photo/chocolates.jpg?b=1&s=170667a&w=0&k=20&c=BP58--1PyKb0BS9cuAu3iJMbeb0BgDpEPL_SHxDWj0c="
+              alt=""
+            />
+          </div>
+          <div class="prduct-content">
+            <h1>Chocolate Machiacto Brown Sugar</h1>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section End -->
+
+    <!-- Menu Contact Start -->
+    <section id="contact" class="contact">
+      <h1><span>Kontak</span> Kami</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
+        inventore.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878841895!2d106.68943088528376!3d-6.229728025911178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1676443435938!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Menu Contact End -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#contact">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">Charles</a>. | &copy; 2023</p>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+    <!-- Modal Box Detail Start -->
+    <div class="modal" id="modal-detail">
+      <div class="modal-container">
+        <a href="#"><i data-feather="x" class="close-icon"></i></a>
+        <div class="modal-content">
+          <img
+            src="https://media.istockphoto.com/id/1292845367/id/foto/foto-makanan-close-up-dari-kakao-panas-atau-bom-cokelat-yang-ditutupi-cokelat-coklat-gerimis.jpg?s=612x612&w=0&k=20&c=7YisD69UFMye5Lp9k1O9tTPkZ3QeWzNN3n5PRaBm4gY="
+            alt=""
+          />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quam
+              et cupiditate nisi suscipit. Ipsa iure recusandae aspernatur
+              quisquam dolor distinctio, voluptates quasi sapiente quas,
+              reiciendis vero quia blanditiis et.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- feather icons -->
+  <script>
+    feather.replace();
+  </script>
+  <!-- javascript -->
+  <script src="./js/script.js"></script>
+</html>
